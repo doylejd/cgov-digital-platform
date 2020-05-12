@@ -42,6 +42,7 @@ modules:
   test:
     enable: [dblog, acquia_connector, shield, simplesamlphp_auth, cgov_saml_auth_config, cgov_https_config, cgov_caching_nocdn]
     uninstall: [syslog, devel, views_ui, cgov_caching_cdn, akamai]
+  ## We have no prod in ACE.
   01dev:
     enable: [dblog, syslog, acquia_connector, acsf, shield, cgov_https_config, cgov_caching_cdn, akamai]
     uninstall: [cgov_caching_nocdn]
